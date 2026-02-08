@@ -6,7 +6,7 @@
     "nx": "nx",
     "frontend": "nx serve angular-demo",
     "backend": "nx serve backend",
-    "start": "npm run frontend"
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
   },
   "private": true,
   "dependencies": {
